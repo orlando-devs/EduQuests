@@ -48,6 +48,19 @@ npm run build
 
 ## 📝 Troubleshooting
 
+### ⚠️ LANGKAH PALING PENTING - Cek Setting GitHub Pages!
+
+**Workflows sudah berjalan, tapi website masih blank?** Kemungkinan besar **Source** di GitHub Pages belum di-set dengan benar.
+
+**LAKUKAN INI SEKARANG:**
+
+1. Buka https://github.com/orlando-devs/EduQuests/settings/pages
+2. Lihat bagian **"Build and deployment"**
+3. Di dropdown **"Source"**, pastikan tertulis **"GitHub Actions"**
+4. **JIKA** masih tertulis "Deploy from a branch" → **UBAH** ke "GitHub Actions"
+5. Klik **Save** (jika ada)
+6. Tunggu 1-2 menit, lalu buka: https://orlando-devs.github.io/EduQuests/
+
 ### Halaman Masih Blank?
 
 1. Pastikan GitHub Pages **Source** di-set ke **GitHub Actions** (bukan branch)
